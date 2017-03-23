@@ -34,3 +34,63 @@
 #card:hover #front {
     transform: perspective(600px) rotateY(179.9deg);
 }
+
+#world {
+    height: 400px;
+    width: 600px;
+    background-image: url(../media/mrizka-velka.gif);
+    position: relative;
+    perspective: 600px;
+    perspective-origin: 80% 0;
+}
+
+#object {
+    /*background-color: darkred;*/
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    transform-style: preserve-3d;
+    /*transform: translate3d(0, 0, -600px);*/
+    animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation {
+    100% {
+        transform: rotate(360deg) rotateY(360deg);
+    }
+}
+
+#object>div {
+    background-image: url(../media/kocka.png);
+    background-color: rgba(100, 0, 0, 0.6);
+    border: solid 1px black;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+#object>div:nth-child(1) {
+    transform: rotateY(0deg) translate3d(0, 0, 100px);
+}
+
+#object>div:nth-child(2) {
+    transform: rotateY(90deg) translate3d(0, 0, 100px);
+}
+
+#object>div:nth-child(3) {
+    transform: rotateY(180deg) translate3d(0, 0, 100px);
+}
+
+#object>div:nth-child(4) {
+    transform: rotateY(270deg) translate3d(0, 0, 100px);
+}
+
+#object>div:nth-child(5) {
+    transform: rotateX(90deg) translate3d(0, 0, 100px);
+}
+
+#object>div:nth-child(6) {
+    transform: rotateX(-90deg) translate3d(0, 0, 100px);
+}
