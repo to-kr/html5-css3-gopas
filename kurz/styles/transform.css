@@ -1,0 +1,60 @@
+#block1 {
+    height: 200px;
+    width: 200px;
+    /*transition: background-color 1s, width 500ms;*/
+    transition: all 500ms;
+    background-color: royalblue;
+}
+
+#block1:hover {
+    background-color: darkred;
+    border-radius: 50%;
+}
+
+#block1.state2 {
+    width: 400px;
+    background-color: green;
+}
+
+#block2 {
+    height: 300px;
+    width: 500px;
+    border: 1px solid black;
+    position: relative;
+}
+
+#ball,
+#ball2 {
+    animation: horizontal 2.65s linear, vertical 1.67s ease-out;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-direction: alternate;
+    background-color: green;
+    height: 20px;
+    width: 20px;
+    left: 0px;
+    top: 280px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#ball2 {
+    animation-delay: 1s;
+    background-color: blue;
+}
+
+#block2:hover #ball2 {
+    animation-play-state: paused;
+}
+
+@keyframes horizontal {
+    to {
+        left: 480px;
+    }
+}
+
+@keyframes vertical {
+    to {
+        top: 0px;
+    }
+}
