@@ -1,0 +1,16 @@
+h1 {
+    color: darkred;
+}
+
+@media (min-width: 400px) {
+    h1 {
+        color: darkgreen;
+    }
+}
+
+@media (min-width: 560px) {
+    .column {
+        float: left;
+        width: 50%;
+    }
+}
