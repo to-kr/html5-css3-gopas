@@ -30,7 +30,7 @@ p {
 .responsive {
     height: 0;
     position: relative;
-    background-color: bisque;
+    /*background-color: bisque;*/
 }
 
 .responsive img,

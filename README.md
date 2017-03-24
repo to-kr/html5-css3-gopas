@@ -11,3 +11,7 @@ https://scottjehl.github.io/picturefill/
 
 
 SVG InkScape
+
+
+Smart PNG and JPEG compression
+https://tinypng.com/
