@@ -6,9 +6,8 @@
     <meta name="generator" content="PSPad editor, www.pspad.com">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kurz / Media queries</title>
-
     <link rel="stylesheet" href="styles/media.css" type="text/css">
-
+    <script async src="//cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.3/picturefill.js"></script>
 </head>
 
 <body>
@@ -16,17 +15,18 @@
     <h1>CSS3 Media queries</h1>
 
     <p class="responsive r1">
-        <img src="../media/praha.jpg" alt="Praha" height="447" width="960">
+        <!--<img src="media/praha.jpg" alt="Praha" height="447" width="960">-->
+        <img sizes="(min-width: 1000px) 960px, 96vw" srcset="media/praha400.jpg 400w, media/praha.jpg 960w" alt="Praha " height="447 " width="960 ">
     </p>
 
-    <div class="column">
+    <div class="column ">
         <p>Lorem ipsum dolor sit amet consectetuer Donec interdum tincidunt pede tempus. Turpis urna orci enim convallis mi nibh ac lacinia nunc elit. Tempus ac Nunc vitae Cras quis tristique Ut vel mattis ut. Mi faucibus dapibus sociis Cras orci ligula
             cursus ac Vestibulum sed. Sagittis neque malesuada magna eget eu augue quis Quisque id netus. Quisque.</p>
         <p>Neque In eu sollicitudin tellus dui urna orci dolor ac dictumst. Et quis Vestibulum quis facilisis Nam leo aliquam nec ante elit. Natoque hendrerit accumsan Vestibulum auctor Ut nibh mus tincidunt pede tempor. Fermentum vel tristique tellus urna
             cursus Vivamus dolor nibh rutrum consequat. Enim eu dictumst et Phasellus id convallis condimentum.</p>
     </div>
 
-    <div class="column">
+    <div class="column ">
         <p>Lacinia convallis eleifend mus Sed nibh Mauris turpis hendrerit a platea. Magna ac tempor sit eu Curabitur In ante Praesent laoreet Vestibulum. Metus et vel elit Curabitur nunc et ac commodo mauris eu. Congue tempus rhoncus sed Vestibulum nunc
             laoreet nibh lorem fringilla metus. Lacinia ridiculus fermentum laoreet augue feugiat non consectetuer metus mollis orci. </p>
         <p>Quam sed commodo et dictumst quis augue quis consequat et Sed. Justo et suscipit pellentesque condimentum amet condimentum nec interdum dolor arcu. Interdum urna wisi nisl nulla Vestibulum vel est Cras Nam fames. Adipiscing quis ut leo et eget
