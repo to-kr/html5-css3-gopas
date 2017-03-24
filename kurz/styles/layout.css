@@ -1,0 +1,31 @@
+#k1 {
+    background-color: lightblue;
+    width: 75%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+#k1>div {
+    background-color: yellow;
+    height: 200px;
+}
+
+#k1 #f1 {
+    background-color: lightcoral;
+    flex: 1;
+    order: 1;
+    height: 300px;
+}
+
+#k1 #f2 {
+    background-color: lightgreen;
+    width: 100px;
+    order: 0;
+}
+
+#k1 #f3 {
+    background-color: lightseagreen;
+    width: 100px;
+    order: 2;
+}
