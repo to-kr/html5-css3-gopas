@@ -12,6 +12,24 @@ p {
     text-align: justify;
 }
 
+.r1 {
+    width: 100%;
+    padding-bottom: 46.6%;
+}
+
+.responsive {
+    height: 0;
+    position: relative;
+    background-color: bisque;
+}
+
+.responsive img {
+    /*max-width: 100%;*/
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
 @media (min-width: 400px) {
     h1 {
         color: darkgreen;
