@@ -28,7 +28,6 @@ p {
 }
 
 .responsive {
-    height: 0;
     position: relative;
     /*background-color: bisque;*/
 }
