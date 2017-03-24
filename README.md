@@ -32,3 +32,6 @@ https://www.sitepoint.com/
 Mail news
 http://frontendfocus.co/
 http://responsivedesignweekly.com/
+
+
+http://pohledzvlaku.cz/
