@@ -1,6 +1,6 @@
 body {
     margin: 0 auto;
-    max-width: 660px;
+    max-width: 860px;
     width: 96%;
 }
 
@@ -17,17 +17,33 @@ p {
     padding-bottom: 46.6%;
 }
 
+.r2 {
+    padding-bottom: 56.2%;
+    width: 100%;
+}
+
+.r3 {
+    padding-bottom: 97.8%;
+    width: 100%;
+}
+
 .responsive {
     height: 0;
     position: relative;
     background-color: bisque;
 }
 
-.responsive img {
+.responsive img,
+.responsive svg,
+.responsive object {
     /*max-width: 100%;*/
     position: absolute;
     width: 100%;
     height: auto;
+}
+
+#owl path {
+    stroke: brown;
 }
 
 @media (min-width: 400px) {
